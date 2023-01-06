@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.library-btn-cancelar {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    color: #3B82F6;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+
+.library-btn-sucesso {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: #3B82F6;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+
+.library-admin-card {
+    margin-top: 1.75rem;
+    margin-right: 2rem;
+    background-color: #ffffff;
+    height: 10rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: #E5E7EB;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.library-admin-card-h1 {
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem;
+}
